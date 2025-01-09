@@ -35,3 +35,7 @@
                 document.getElementById("countdown").innerHTML = "¡Evento comenzado!";
             }
         }, 1000);
+
+        const confeti = document.querySelector(".confeti")
+        setTimeout(()=>{confeti.classList.add("hidden")}, 3000)
+        
