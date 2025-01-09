@@ -1,0 +1,141 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    margin:0 auto;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.baloo {
+  font-family: "Baloo Bhai 2", serif;
+  font-optical-sizing: auto;
+
+}
+
+.cont-banner{ 
+    margin: 0 auto;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0)), url("./assets/images/fondo.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 0 90px;
+}
+
+.nombre{
+    font-size: 4rem;
+    filter: drop-shadow(#000 1px 1px 1px);
+    text-rendering: optimizeLegibility;
+    color: #44BBA4;
+}
+
+.mensaje-inv{
+    filter: drop-shadow(#000 3px 3px 3px);
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    line-height: 2rem;
+    width: 70%;
+    position: relative;
+}
+
+.cont-img{
+    background-image: url("./assets/images/eli-removebg-preview.png");
+    width: 200px;
+    height: 200px;
+    background-color: #FFF9C4;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 530px;
+    box-shadow: 3px 3px 10px  #c4c4c47c;
+}
+
+.cont-2{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 20px 0 20px;
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+}
+
+.dia{
+    color: #696969;
+}
+
+.fecha{
+    text-align: center;  
+}
+
+.hora{
+    color: #696969;
+}
+
+.btn{
+    font-size: 24px;
+    width: 100%;
+    padding: 15px 50px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #44BBA4;
+    color: #fff;
+    text-align: center;
+}
+
+.btn > span{
+    margin: 5px 10px 0 0;
+    transform: scale(120%) translate(0, 3px);
+}
+
+.countdown{
+    font-size: 2rem;
+    text-align: center;
+    color: #696969;
+    margin: 40px 0;
+}
+
+.text-confirmar{
+    font-size: 1.7rem;
+    text-align: center;
+    color: #696969;
+    margin: 10px 0 0 0;
+}
+
+.direccion{
+    background-color: #FFF9C4;
+    padding: 20px;
+    margin: 30px;
+    font-size: 1.5rem;
+    color: #696969;
+    text-align: center;
+}
+
+.footer{
+    background-color: #202020;
+    color: #dbdbdb;
+    padding: 30px;
+    text-align: center;
+}
+
+.dev{
+    color: #44BBA4;
+}
